@@ -38,10 +38,10 @@ from flask import Flask, flash, request, redirect, url_for, render_template
 from werkzeug.utils import secure_filename
 daisy = 'dAIsy'
 app = Flask(__name__)
-app.secret_key = "You Come t0 m3 0n th3 dai 0f mah dAUghterZZzz wedDinng BITCH!"
-pub_key ='pk_live_2pO0yUvt9xKyjAo9rca8Vkc600FWtgJuqZ'
-infura_url = "https://ropsten.infura.io/v3/89f69d97c5c44c35959cc4d15c0f0531"
-#	 infura_url = 'wss://ropsten.infura.io/ws/v3/89f69d97c5c44c35959cc4d15c0f0531'
+app.secret_key = "----------------"
+pub_key ='--------------------'
+infura_url = "https://ropsten.infura.io/v3/---------------------"
+#	 infura_url = 'wss://ropsten.infura.io/ws/v3/------------------------'
 web3 = Web3(Web3.HTTPProvider(infura_url))
 web3.middleware_onion.inject(geth_poa_middleware, layer=0)
 	
