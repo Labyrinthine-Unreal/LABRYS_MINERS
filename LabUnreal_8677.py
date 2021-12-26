@@ -96,7 +96,7 @@ class LabUnrealBlockchain:
 				'receiver_trx':receiver1_trx ,
 				'receiver1_eth':receiver1_eth,
 				   # 'content':content,
-				'totalSupply_trx':contract.functions.balanceOf(address1) ,
+				'totalSupply_eth':contract.functions.balanceOf(address1) ,
 				'totalSupply_trx':contract.functions.balanceOf(receiver1_trx) ,
 				
 				}
